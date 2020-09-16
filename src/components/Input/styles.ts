@@ -10,18 +10,18 @@ interface ContainerProps {
 
 export const Container = styled.div<ContainerProps>`
   background: #232129;
-  border-radius: 10px;
-  padding: 16px;
+  border-radius: 1rem;
+  padding: 1.6rem;
   width: 100%;
 
-  border: 2px solid #232129;
+  border: 0.2rem solid #232129;
   color: #666360;
 
   display: flex;
   align-items: center;
 
   & + div {
-    margin-top: 8px;
+    margin-top: 0.8rem;
   }
 
   ${props =>
@@ -57,13 +57,13 @@ export const Container = styled.div<ContainerProps>`
   }
 
   svg {
-    margin-right: 16px;
+    margin-right: 1.6rem;
   }
 `;
 
 export const Error = styled(Tooltip)`
-  height: 20px;
-  margin-left: 10px;
+  height: 2rem;
+  margin-left: 1rem;
 
   svg {
     margin: 0;
