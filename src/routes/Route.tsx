@@ -13,6 +13,7 @@ interface RouteProps extends ReactDOMRouteProps {
 }
 
 /**
+ * casos isPrivate/authenticated
  * true/true = OK
  * true/false = Redirecionar ele para o login
  * false/true = Redirecionar para o dashboard

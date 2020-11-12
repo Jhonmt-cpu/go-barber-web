@@ -1,7 +1,8 @@
 {
     "env": {
         "browser": true,
-        "es6": true
+        "es6": true,
+        "jest": true
     },
     "extends": [
       "plugin:@typescript-eslint/recommended",
@@ -47,7 +48,9 @@
           "tsx": "never"
         }
       ],
-      "prettier/prettier": "error"
+      "prettier/prettier": "error",
+      "import/no-duplicates": "off",
+      "no-use-before-define": "off"
     },
     "settings": {
       "import/resolver": {
