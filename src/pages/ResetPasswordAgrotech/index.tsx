@@ -7,7 +7,7 @@ const ResetPasswordAgrotech: React.FC = () => {
   useEffect(() => {
     const token = location.search.replace('?token=', '');
 
-    window.location.href = `appagrotech://appagrotech.com/resetpassword/${token}`;
+    window.location.href = `appagrotech://resetpassword/${token}`;
   }, [location]);
 
   return <div />;
